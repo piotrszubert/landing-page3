@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32afff;
+    height: 50px;
+}
+
+.menu a {
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    color: #32a1ff;
+}
