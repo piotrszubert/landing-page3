@@ -72,15 +72,23 @@ a {
   .overlay-content {
     display: flex;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 10rem;
     flex-direction: column;
   }
  
   .overlay a {
-    padding: 8px;
+    padding: 20px;
     text-decoration: none;
     font-size: 46px;
     color: #32afff;
+    transition: 0.4s;
+  }
+
+  .overlay a:hover {
+      font-size: 55px;
+    
+      border-bottom: 4px solid #32afff;
+      font-weight: 900;
   }
 
 .landing {
