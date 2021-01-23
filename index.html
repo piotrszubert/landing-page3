@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -12,33 +12,71 @@
     <header>
         <nav>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="#">Kontakt</a></li>
                 <li><a href="#">O mnie</a></li>
                 <li><a href="#">Cennik</a></li>
                 <li><a href="#">Oferta</a></li>
             </ul>
         </nav>
-        <div class="sidebar" style="display:flex">
-            <img id="close" style="display: none;" src="/menu-close.svg" style="height: 35px;" />
+        <div class="sidebar" onclick="openNav()" style="display:flex">
             <img id="open" src="/menu-open.svg" style="height: 35px; transform: rotateZ(90deg);" />
         </div>
     </header>
+    <div id="myNav" class="overlay">
+        <div class="sidebar" onclick="closeNav()" style="display: flex;">
+            <img class="" id="close" onclick="closeNav()" src="/menu-close.svg" style="height: 35px;" />
+        </div>
+        <div class="overlay-content">
+            <a href="#">Kontakt</a>
+            <a href="#">O mnie</a>
+            <a href="#">Cennik</a>
+            <a href="#">Oferta</a>
+        </div>
+    </div>
+
     <main>
         <section class="landing">
             <h1 class="landing-header">Dietetyk online.</h1>
             <p class="landing-text">
                 Zyskaj zdrowie
                 i wymarzoną sylwetkę.
-                Na zawsze. Bez wyrzeczeń. Skutecznie
+                <strong>
+                    Na zawsze. Bez wyrzeczeń. Skutecznie.
+                </strong>
             </p>
-            <p class="landing-text" style="font-size: 1rem;">Już dziś skorzystaj z najlepszej porady dietetyka przez internet.</p>
+            <p class="landing-text" style="font-size: 1rem;">
+                Skorzystaj z najlepszej porady dietetycznej online
+            </p>
             <a href="#">Indywidualna dieta</a>
-            
+        </section>
+
+        <section class="about">
+            <div class="">
+                <h2>O mnie</h2>
+                <p class="about-text">
+                    Nazywam się Sylwia Kozłowska. Jestem
+                    <strong>dyplomowanym dietetykiem.</strong>
+                    Tytuł licencjata zdobyłam w 2019 roku w Wyższej Szkole Biznesu
+                    i Nauk o Zdrowiu w Łodzi. Studia zakończyłam ze specjalizacją:
+                    Psychodietetyk. Od 2019 roku kontynuuję swoją edukację na studiach
+                    magisterskich o kierunku: Dietetyka na Uniwersytecie Medycznym w
+                    Łodzi. W 2020 roku uzyskałam
+                    również
+                    <strong>licencję trenera personalnego</strong>
+                </p>
+            </div>
+            <a href="#"> Więcej </a>
         </section>
 
         <section class="opinions">
-
+            <ul>
+                <li>opinia</li>
+                <li>opinia</li>
+                <li>opinia</li>
+                <li>opinia</li>
+                <li>opinia</li>
+            </ul>
         </section>
 
     </main>

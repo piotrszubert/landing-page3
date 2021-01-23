@@ -1,7 +1,10 @@
-const openMenu = document.getElementById("open");
-const closeMenu = document.getElementById("close");
+const myNav = document.getElementById("myNav");
 
+const openNav = () => {
+    myNav.style.height = "100%";
+}  
 
-addEventListener("click", () => {
-    
-})
+const closeNav = () => {
+    myNav.style.height = "0%";
+}  
+
