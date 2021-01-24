@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Na Diecie | Dietetyk | Diety online</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/o-mnie.html">O mnie</a></li>
+                <li><a href="/cennik.html">Cennik</a></li>
+                <li><a href="/oferta.html">Oferta</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar" onclick="openNav()" style="display:flex">
+            <img id="open" src="/menu-open.svg" style="height: 35px; transform: rotateZ(90deg);" />
+        </div>
+    </header>
+    <div id="myNav" class="overlay">
+        <div class="sidebar" onclick="closeNav()" style="display: flex;">
+            <img class="" id="close" onclick="closeNav()" src="/menu-close.svg" style="height: 35px;" />
+        </div>
+        <div class="overlay-content">
+            <a href="#">Kontakt</a>
+            <a href="#">O mnie</a>
+            <a href="#">Cennik</a>
+            <a href="#">Oferta</a>
+        </div>
+    </div>
+
+    <main>
+
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <img src="/facebook.svg" />
+            <img src="/instagram.svg" />
+
+        </div>
+        <div class="contact">
+            <ul>
+                <li>mail@mail.com</li>
+                <li>123 456 789</li>
+            </ul>
+        </div>
+        <p>
+            Na Diecie 2021&copy;
+        </p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

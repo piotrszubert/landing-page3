@@ -84,11 +84,10 @@ a {
     transition: 0.4s;
   }
 
-  .overlay a:hover {
-      font-size: 55px;
-    
-      border-bottom: 4px solid #32afff;
-      font-weight: 900;
+.overlay a:hover {
+    font-size: 55px;
+    border-bottom: 4px solid #32afff;
+    font-weight: 900;
   }
 
 .landing {
@@ -203,16 +202,33 @@ a {
 
 
 
-
-
-
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .footer {
         flex-direction: column;
     }
 
     .menu a{
         display: none;
+    }
+
+    .landing-header {
+        font-size: 4rem;
+        color: #111;
+        margin-bottom: 10xp;
+        margin-top: 70px;
+    }
+    
+    .landing-text {
+        font-size: 1.6rem;
+        color: #111;
+        margin-bottom: 35px;
+        text-align: left;
+        width: 300px;
+    }
+
+    .about-text {
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 20px;
     }
 }

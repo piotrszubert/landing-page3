@@ -7,4 +7,3 @@ const openNav = () => {
 const closeNav = () => {
     myNav.style.height = "0%";
 }  
-
