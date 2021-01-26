@@ -20,7 +20,6 @@ a {
     text-decoration: none;
 }
 
-
 .menu {
     display: flex;
     justify-content: none;
@@ -29,6 +28,7 @@ a {
     height: 60px;
 }
 
+/* need refactor  -  selectors shit happen*/
 .menu a {
     color: #ffffff;
     padding: 18px;
@@ -42,7 +42,6 @@ a {
     color: #111111;
     letter-spacing: 4px;
     transition: 0.4s;
-
 }
 
 .sidebar {
@@ -56,7 +55,6 @@ a {
 }
 
 .overlay {
- 
     height: 0%;
     width: 100%;
     position: fixed;
@@ -113,20 +111,32 @@ a {
     width: 500px;
 }
 
-.landing a {
+a.landing {
     font-weight: 900;
-    color: #111;
+    color: #fff;
     font-size: 20px;
     border: 2px solid;
     padding: 10px;
     border-radius: 10px;
     transition: 0.7s;
+    background-image: none;
+    background-color: #56e856;
+
+
 }
 
-.landing a:hover {
-    background-color: #56e856;
-    color: #fff;
+a:hover.landing {
+    background-color: #fff;
+    color: #111;
     transition: 0.3s;
+}
+
+.scroll-down {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
 }
 
 .about {
