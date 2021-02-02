@@ -38,7 +38,6 @@ a {
         transition: 0.4s;
     }
 
-    
     a:hover {
         background-color: $background-color;
         color: #111111;
@@ -111,7 +110,6 @@ a {
         margin-top: 70px;
     }
 
-    
     p {
         font-size: 2rem;
          color: #111;
@@ -119,7 +117,6 @@ a {
          text-align: left;
          width: 500px;
     }
-
 
     a {
         font-weight: 900;
@@ -174,14 +171,11 @@ a {
     }
 }
 
- 
-
 .about-text {
     width: 550px;
     margin-bottom: 30px;
     font-size: 20px;
 }
-
 
 .opinions {
     height: 500px;
@@ -223,7 +217,11 @@ a {
 }
 
 
+//contact page --------------------------------
 
+//about page -----------------------------------
+
+//offer page --------------------------------------
 
 @media screen and (max-width: 600px) {
     .footer {
@@ -241,7 +239,7 @@ a {
         margin-top: 70px;
     }
     
-    .landing-text {
+    .landing p {
         font-size: 1.6rem;
         color: #111;
         margin-bottom: 35px;

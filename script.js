@@ -10,6 +10,8 @@ const closeNav = () => {
 
 
 
+
+
 //animate numbers 
 
 function animateValue(obj, start, end, duration) {
