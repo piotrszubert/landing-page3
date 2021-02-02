@@ -12,10 +12,10 @@
 }
 
 .hamburger, .navigation {
-  -webkit-transition: -webkit-transform .4s .2s ease-in-out;
-  transition: -webkit-transform .4s .2s ease-in-out;
-  transition: transform .4s .2s ease-in-out;
-  transition: transform .4s .2s ease-in-out, -webkit-transform .4s .2s ease-in-out;
+  -webkit-transition: -webkit-transform .3s .2s ease-in-out;
+  transition: -webkit-transform .3s .2s ease-in-out;
+  transition: transform .3s .2s ease-in-out;
+  transition: transform .3s .2s ease-in-out, -webkit-transform .3s .2s ease-in-out;
 }
 
 .hamburger-active {
@@ -33,7 +33,7 @@
 .hamburger-inner {
   width: 100%;
   height: 4px;
-  background-color: #171717;
+  background-color: #FFFFFF;
   position: absolute;
   left: 0;
   top: 50%;
@@ -47,7 +47,7 @@
 .hamburger-inner::after {
   width: 100%;
   height: 4px;
-  background-color: #171717;
+  background-color: #FFFFFF;
   position: absolute;
   content: '';
   left: 0;
@@ -72,11 +72,17 @@
 .hamburger-active .hamburger-inner:before {
   -webkit-transform: translateY(10px) rotate(45deg);
           transform: translateY(10px) rotate(45deg);
+  background-color: #171717;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .hamburger-active .hamburger-inner:after {
   -webkit-transform: translateY(-10px) rotate(-45deg);
           transform: translateY(-10px) rotate(-45deg);
+  background-color: #171717;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .navigation {
@@ -115,6 +121,14 @@
 
 .navigation-item a {
   text-decoration: none;
+  font-weight: 700;
+  padding: 15px;
   color: #171717;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-item :hover {
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=hamburger.css.map */

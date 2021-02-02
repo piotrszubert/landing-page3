@@ -155,7 +155,6 @@ a {
 }
 
 .landing .scroll-down {
-  background-color: #ffffff;
   margin-top: 10%;
   /* for square shape */
   display: -webkit-box;
@@ -211,6 +210,11 @@ a {
   color: #fff;
 }
 
+.opinions p {
+  max-width: 350px;
+  font-size: 20px;
+}
+
 .footer {
   position: static;
   bottom: 0;
@@ -260,6 +264,9 @@ a {
   }
   .menu a {
     display: none;
+  }
+  .landing .scroll-down {
+    margin-top: 60px;
   }
   .landing h1 {
     font-size: 4rem;
